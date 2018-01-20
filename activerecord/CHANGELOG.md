@@ -1,3 +1,9 @@
+*   Fix `includes` unable to handle joins on case insensitive columns.
+
+    Fixes #31445.
+
+    *Hendy Tanata* (also Aaron and Lisa)
+
 ## Rails 6.0.1 (November 5, 2019) ##
 
 *    Common Table Expressions are allowed on read-only connections.
